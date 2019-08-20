@@ -4,7 +4,7 @@ import * as path from "path";
 import { EmotivePoint } from "../models/emotivePoint";
 import { Face } from "../models/faces";
 import { Rect } from "../models/rect";
-import * as emojiConvert from "emoji-dictionary";
+// import * as emojiConvert from "emoji-dictionary";
 
 const API_URL = process.env["FACE_API_URL"];
 const API_KEY = process.env["FACE_API_KEY"];
